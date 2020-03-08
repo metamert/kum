@@ -1,0 +1,55 @@
+.as-text {
+    padding-top: 30px !important;
+    padding-left: 20px !important;
+}
+.as-text .section-title {
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.section-title span {
+  
+    color: #e32879;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.section-title h2 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 14px;
+}
+.primary-btn {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #fff;
+    background: #e32879 !important;
+    display: inline-block;
+    font-weight: 700;
+    padding: 12px 30px 10px;
+}
+.renkcontainer{
+    background-color: #191919;
+    margin: 0px !important;
+    padding: 5%;
+}
+.f-para{
+
+color: white;
+}
+.s-para{
+    color: white;
+}
+.as-pic img {
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+.videocss{
+    margin-top: 50px;
+    height: 300px !important;
+    width: 100% !important;
+}

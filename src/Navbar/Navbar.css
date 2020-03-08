@@ -1,0 +1,65 @@
+.black-title{
+    color: white !important;
+    font-family: 'Roboto', sans-serif !important;
+
+}
+.black-title{
+    color: black !important;
+    font-family: 'Roboto', sans-serif !important;
+
+}
+.boyut{
+    height: 100px;
+}
+.white a{color: white !important;
+    font-family: 'Roboto', sans-serif !important;
+    ;}
+.black a{color: black !important;}
+.ispass{
+
+    background-color: white !important;
+    color: black !important;
+}
+.trans{
+    background-color: transparent !important;
+
+}
+
+
+
+
+#nav12{
+   
+margin:0 !important;
+
+}
+.navbarmargin{
+  
+    justify-content: flex-end;
+    text-align: center;
+    margin-right: 3%;
+    }
+    .nav-link {
+        display: block;
+         padding: 15px 20px !important;
+    }
+    .menuitem{
+   
+ 
+ padding: 3%;
+ margin-top: 1%;     
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .menuitem:hover{
+        
+     
+        background: rgba(200, 200, 200, 0.2) !important;
+        box-shadow: none !important;
+    
+    }

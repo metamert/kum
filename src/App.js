@@ -1,25 +1,40 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Slider from "./slider/slider"
+import About from "./aboutus/about"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./Navbar/navbar"
+import Cards from "./cards/cards"
+import Video from "./video/video"
+import Contact from "./contact/contact"
+import Main from "./advancedanimation/main"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Navbar></Navbar>
+       <Slider></Slider>
+ 
+
+  <About></About>
+  <Cards></Cards>
+ <div>
+ <Main></Main>
+ </div>
+  
+  <Video></Video>
+<Contact></Contact>  
+<div className="finish">
+
+© 3/8/2020  this site made by Orkun Mert Yigit orkunmertgs41@gmail.com
+</div>
+  
+  
+  </div>
+    
+    
+    
+   
   );
 }
 

@@ -1,8 +1,12 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "proxy": "http://localhost:5000",
+  
   "private": true,
+  "engines": {
+    "node": "13.2.0",
+    "npm": "6.13.6"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -28,9 +32,10 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,10 +52,7 @@
       "last 1 safari version"
     ]
   },
-  "engines": {
-    "node": "13.2.0",
-    "npm": "6.13.6"
-  },
+ 
   "main": "index.js",
   "author": "orkun mert <orkunmertgs41@gmail.com>",
   "license": "MIT"

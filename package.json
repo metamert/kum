@@ -7,30 +7,26 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "bootstrap": "^4.4.1",
-    "git": "^0.1.5",
-    "react": "^16.13.0",
-    "react-bootstrap": "^1.0.0-beta.17",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0",
     "add": "^2.0.6",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
     "git": "^0.1.5",
     "heroku": "^7.39.0",
+    "react": "^16.13.0",
     "react-animated-slider": "^2.0.0",
     "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.13.0",
     "react-icons": "^3.9.0",
     "react-player": "^1.15.2",
     "react-responsive-carousel": "^3.1.51",
     "react-reveal": "^1.2.2",
+    "react-scripts": "3.4.0",
     "react-spring": "^8.0.27",
     "resize-observer-polyfill": "^1.5.1",
     "yarn": "^1.22.1"
   },
-  
   "scripts": {
-    
     "start": "node index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -54,5 +50,8 @@
   "engines": {
     "node": "13.2.0",
     "npm": "6.13.6"
-  }
+  },
+  "main": "index.js",
+  "author": "orkun mert <orkunmertgs41@gmail.com>",
+  "license": "MIT"
 }

@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
+    "dotenv": "^8.2.0",
     "git": "^0.1.5",
     "heroku": "^7.39.0",
     "lodash": "^4.17.15",

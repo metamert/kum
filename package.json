@@ -6,24 +6,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
-    "dotenv": "^8.2.0",
     "git": "^0.1.5",
-    "heroku": "^7.39.0",
-    "lodash": "^4.17.15",
-    "node": "^13.10.1",
+    "node":"^13.10.1",
     "react": "^16.13.0",
     "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.13.0",
-    "react-icons": "^3.9.0",
-    "react-player": "^1.15.2",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "3.4.0",
-    "react-spring": "^8.0.27",
-    "resize-observer-polyfill": "^1.5.1"
+    "react-scripts": "3.4.0"
   },
+  
   "scripts": {
+    
     "start": "node index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",

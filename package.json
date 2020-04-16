@@ -1,7 +1,6 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  
   "private": true,
   "engines": {
     "node": "13.2.0",
@@ -51,7 +50,6 @@
       "last 1 safari version"
     ]
   },
- 
   "main": "app.js",
   "author": "orkun mert <orkunmertgs41@gmail.com>",
   "license": "MIT"

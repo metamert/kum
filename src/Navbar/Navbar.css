@@ -10,11 +10,28 @@
 }
 .boyut{
     height: 100px;
+    width: 100% !important;
 }
 .white a{color: white !important;
     font-family: 'Roboto', sans-serif !important;
     ;}
 .black a{color: black !important;}
+@media screen and (max-width: 992px) {
+    .navbarmargin .black{
+        background-color: white !important;   
+       
+    
+    }
+    .white .navbarmargin{
+      
+        background-color:black !important; 
+    }
+    
+  }
+
+
+ 
+
 .ispass{
 
     background-color: white !important;
@@ -54,6 +71,7 @@ margin:0 !important;
         border-radius: 3px;
         text-transform: uppercase;
         text-decoration: none;
+       
     }
 
     .menuitem:hover{

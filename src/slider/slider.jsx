@@ -1,8 +1,8 @@
 import React from "react"
 import {Carousel,Button} from "react-bootstrap";
-import resım from "../resım/resım.jpg"
-import resım4k from "../resım/bg4.jpg"
-import resım7k from "../resım/bg7.jpg"
+import resım from "../resım/wall1.jpg"
+import resım4k from "../resım/wall3.jpg"
+import resım7k from "../resım/wall2.jpg"
 import {Fade} from "react-reveal"
 import "./slider.css"
 const Slider =()=>{

@@ -83,14 +83,14 @@ orkunmertgs41@gmail.com
 </div>
 </Col>
 <Col lg={6}>
-<div data-aos="fade-left"
+<div data-aos="fade-right"
       
       >  
 <input type="text" placeholder={"email"}></input>
 </div>
 </Col>
 
-<Col>
+<Col className="coz">
 <div data-aos="fade-up"
         
         

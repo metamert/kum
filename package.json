@@ -31,11 +31,10 @@
     "yarn": "^1.22.1"
   },
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js",
-    "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -53,7 +52,7 @@
     ]
   },
  
-  "main": "index.js",
+  "main": "app.js",
   "author": "orkun mert <orkunmertgs41@gmail.com>",
   "license": "MIT"
 }

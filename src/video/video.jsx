@@ -35,7 +35,7 @@ return(
 
     
       <Col lg={6}>
-      <div data-aos="fade-right"
+      <div data-aos="fade-up"
         data-aos-duration="2000"
         data-aos-offset="300"
       >  
@@ -53,7 +53,7 @@ return(
              
       
       <Col lg={6}>
-      <div data-aos="fade-left"
+      <div data-aos="fade-up"
           data-aos-offset="200"
             data-aos-duration="2000">   
           <div class="as-text">

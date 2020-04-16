@@ -38,7 +38,7 @@ console.log(ispass)
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
 						</NavDropdown>
-						<div className={"menuitem "+(ispass ? "black": "white")}><Nav.Link href="#home" >Home</Nav.Link></div>
+						<div className={"menuitem "+(ispass ? "black": "white")}><Nav.Link href="#renkcontainer2" >Home</Nav.Link></div>
 						<div className={"menuitem "+(ispass ? "black": "white")}><Nav.Link href="#home" >Link</Nav.Link></div>
 				
 

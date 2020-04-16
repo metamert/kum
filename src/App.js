@@ -8,7 +8,7 @@ import Navbar from "./Navbar/navbar"
 import Cards from "./cards/cards"
 import Video from "./video/video"
 import Contact from "./contact/contact"
-import Main from "./advancedanimation/main"
+
 function App() {
   return (
     <div className="App">
@@ -18,12 +18,13 @@ function App() {
 
   <About></About>
   <Cards></Cards>
- <div>
- <Main></Main>
- </div>
+
+ 
+ 
   
   <Video></Video>
-<Contact></Contact>  
+<div>  <Contact></Contact>  </div>
+
 <div className="finish">
 
 © 3/8/2020  this site made by Orkun Mert Yigit orkunmertgs41@gmail.com
